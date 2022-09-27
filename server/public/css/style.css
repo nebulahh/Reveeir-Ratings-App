@@ -1,0 +1,49 @@
+img {
+  width: 100%;
+  border-radius: 12px;
+  height: 214px;
+  object-fit: cover;
+}
+
+#container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #bacdd8;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+
+  margin-top: 16px;
+}
+
+p {
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+.card__details {
+  /* Add space around the details */
+  padding: 16px 8px 8px 8px;
+}
+
+
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fbc2eb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+  }
